@@ -1,0 +1,84 @@
+   body {
+       font-family: Arial, sans-serif;
+       background-color: #fff;
+   }
+
+   table {
+       width: 700px;
+       border-collapse: collapse;
+   }
+
+   td {
+       padding: 5px;
+       vertical-align: top;
+   }
+
+   input[type="text"],
+   input[type="email"],
+   input[type="password"],
+   select {
+       width: 98%;
+       padding: 4px;
+       border: 1px solid #ccc;
+   }
+
+   input[type="radio"],
+   input[type="checkbox"] {
+       margin-right: 5px;
+   }
+
+   .barra-esquerda {
+       background: #4ac1e6;
+       color: #000000;
+       font-weight: bold;
+       padding: 4px 8px;
+       flex: 2;
+       font-size: 16px;
+   }
+
+   .barra-direita {
+       background: #000066;
+       flex: 3;
+       margin-left: 3px;
+   }
+
+   .barra-cadastro {
+       display: flex;
+       width: 100%;
+       margin-bottom: 6px;
+   }
+
+   .checkbox-group {
+       margin-top: 10px;
+       margin-left: 10px;
+   }
+
+   .checkbox-group label {
+       display: inline-block;
+       width: 150px;
+   }
+
+   .buttons {
+       text-align: center;
+       margin-top: 15px;
+   }
+
+   .buttons input {
+       padding: 5px 15px;
+       margin: 0 10px;
+       border: 1px solid #ccc;
+       background-color: #e0e0e0;
+       cursor: pointer;
+   }
+
+   .confirmar {
+       background-color: #d0d0ff;
+   }
+
+   .retornar {
+       background-color: #f0f0f0;
+   }
+
+   .small-input {
+       width: 45%;
+   }

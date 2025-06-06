@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/exercicio1.css">
+</head>
+
+<body>
+    <main>
+        <h2>Deixe um comentário</h2>
+        <form action="respFormulario.html" id="formulario" method="post">
+            <label for="lbNome">Nome:</label>
+            <input id="ipNome" name="ipNome" type="text" required>
+            <label for="lbEmail">Email:</label>
+            <input id="ipEmail" name="ipEmail" type="email" required>
+            <label for="lbWebsite">Website:</label>
+            <input id="ipWebsite" name="ipWebsite" type="url" required>
+            <label for="lbComentario">Comentário:</label>
+            <textarea id="taComentario" name="taComentario" rows="5"></textarea>
+            <br>
+            <p>Observção: Seu comentário será publicado após passar pelo moderador</p>
+            <br>
+            <input type="submit" value="Enviar Comentário">
+
+        </form>
+    </main>
+</body>
+
+</html>
