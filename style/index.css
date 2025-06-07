@@ -1,7 +1,7 @@
 body {
     min-height: 100vh;
     margin: 0;
-    background: #cecece;
+    background: #f5f8fa;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-    background: #bbbbbb;
+    background: #d8d8d8;
     color: #000000;
 }
 
@@ -51,7 +51,7 @@ footer {
     padding: 16px 0;
     font-size: 1rem;
     font-weight: bold;
-    border-top: 1px solid #e0f4ff;
+    border-top: 1px solid #e6f5fd;
     box-shadow: 0 -2px 12px #0001;
     letter-spacing: 1px;
 }
