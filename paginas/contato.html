@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../style/formulario.css">
 </head>
+
 <body>
-    
+    <main>
+
+        <form action="../index.html" method="post">
+            <h3>CONTATO</h3>
+            <p>Se deseja entrar em contato, preencha o formulário</p>
+            <label for="ipNome">
+                <span class="label-nome">NOME</span>
+                <span class="label-obrigatorio">(OBRIGATÓRIO)</span>
+            </label> 
+            <input id="ipNome" name="ipNome" type="text" placeholder="Cliente" required>
+            <label for="lbEmail">
+                <span class="label-email">EMAIL</span>
+                <span class="label-obrigatorio">(OBRIGATÓRIO)</span>
+             </label>
+            <input id="ipEmail" name="ipEmail" type="email" placeholder="Cliente@gmail.com" required>
+            <label for="lbTipo">
+                <span class="label-email">TIPO</span>
+                <span class="label-obrigatorio">(OBRIGATÓRIO)</span>
+             </label>         
+            <select>
+                <option>Cotação</option>
+                <option>Pedido</option>
+                <option>Reclamação</option>
+            </select>
+            <label for="lbComentario">
+                <span class="label-comentario">COMENTÁRIOS</span>
+                <span class="label-obrigatorio">(OBRIGATÓRIO)</span>
+            </label>
+            <textarea id="taComentario" name="taComentario" rows="5"></textarea>
+            <br>
+            <input type="submit" value="ENVIAR>>">
+
+
+        </form>
+    </main>
 </body>
+
 </html>

@@ -1,0 +1,132 @@
+body {
+    background: #fff;
+    font-family: Arial, sans-serif;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    background: #fafafa;
+    border: 3px solid #ccc;
+    box-shadow: 4px 4px 0 #ddd;
+    padding: 24px 28px 18px 28px;
+    width: 400px;
+    border-radius: 3px;
+}
+
+h3 {
+    color: #9db0b6;
+    font-size: 2rem;
+    margin-bottom: 6px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.label-nome {
+    color: #9db0b6;
+}
+
+.label-obrigatorio {
+    color: #b3b3b3;
+    font-size: 0.98em;
+    margin-left: 4px;
+}
+::placeholder{
+    color: #b3b3b3;
+}
+
+form p {
+    color: #9db0b6;
+    font-size: 1.05rem;
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    color: #9db0b6;
+    font-size: 1rem;
+    margin-bottom: 4px;
+    margin-top: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 80%;
+    padding: 7px 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    font-size: 1rem;
+    margin-bottom: 6px;
+    background: #fff;
+    color: #444;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    transition: border 0.2s;
+}
+
+textarea {
+    width: 100%;
+    padding: 7px 8px;
+    border: 2px solid #e9c03a;
+    border-radius: 2px;
+    font-size: 1rem;
+    margin-bottom: 6px;
+    background: #fff;
+    color: #444;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    transition: border 0.2s;
+}
+select{
+     width: 45%;
+    padding: 7px 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    font-size: 1rem;
+    background: #fff;
+    color: #9db0b6;
+    font-family: Arial, sans-serif;
+    transition: border 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border: 1.5px solid #b3b3b3;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background: #e0e0e0;
+    color: #888;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 7px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 6px;
+    letter-spacing: 1px;
+    transition: background 0.2s, color 0.2s;
+}
+
+input[type="submit"]:hover {
+    background: #d0d0d0;
+    color: #333;
+}
